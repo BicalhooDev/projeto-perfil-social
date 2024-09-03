@@ -6,22 +6,22 @@
 
 :root {
     --color-white: white;
-    --bg-url: url(/assets/assets/bg-mobile.jpg);
+    --bg-url: url(/assets/bg-mobile.jpg);
     --borde-color:  rgba(255,255, 255, 0.5);
     --background-color: #ffffff14;
     --background-color-hover: #ffffff14;
     --borde-color-hover:  rgba(255,255, 255, 0.5);
-    --botao-url: url(/assets/assets/moon-stars.svg);
+    --botao-url: url(/assets/moon-stars.svg);
 }
 
 .light {
     --color-white: black;
-    --bg-url: url(/assets/assets/bg-mobile-light.jpg);
+    --bg-url: url(/assets/bg-mobile-light.jpg);
     --borde-color:  rgba(0, 0, 0, 0.5);
     --background-color: rgba(0, 0, 0, 0.05);
     --background-color-hover: rgba(0, 0, 0, 0.02);
     --borde-color-hover: rgba(0, 0, 0, 0.08);
-    --botao-url: url(/assets/assets/sun.svg);
+    --botao-url: url(/assets/sun.svg);
 }
 
 body{
