@@ -78,11 +78,14 @@ body * {
     left: 0%;
     z-index: 1;
     transform: translateY(-50%);
+
+    animation: effect-back 0.2s ;
 }
 
 .light #botao button {
-    right: 0;
-    left: initial;
+    /*right: 0px;
+    left: initial;*/
+    animation: effect-in 0.4s forwards;
 }
 
 #botao span {
@@ -163,3 +166,22 @@ footer p {
         --bg-url: url(/assets/bg-desktop-light.jpg);
     }
 }
+
+
+@keyframes effect-in {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes effect-back {
+    from {
+        left: 50%;
+    }
+    to {
+        right: 0%;
+    }  
+} 
